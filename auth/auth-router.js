@@ -46,7 +46,7 @@ function signToken(user) {
     username: user.username
   };
 
-  const secret = process.env.JWT_SECRET || "is it secret, is it safe?";
+  const secret = process.env.JWT_SECRET || "keep it secret and safe!";
 
   const options = {
     expiresIn: `1h`
